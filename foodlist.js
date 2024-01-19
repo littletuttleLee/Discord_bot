@@ -52,7 +52,7 @@ const randomfood = (data) =>{
     let checksum = 0;
 
     for(let i=0;i<data.length;i++){
-        if(data[i]["BusinessDay"].indexOf(week)==-1){
+        if(data[i]["BusinessDay"].indexOf(week)!=-1){
             checksum+=1;
         }
     }
