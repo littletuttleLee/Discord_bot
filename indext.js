@@ -54,7 +54,7 @@ const {
   let foodbuttomdata = "";
 
   client.on(Events.InteractionCreate, async (interaction) => {
-    console.log(interaction)
+    //console.log(interaction)
      //console.log(interaction.commandName)
     // console.log(interaction.customId)
     foodlistdata = await Todo.find();
