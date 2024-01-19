@@ -106,7 +106,7 @@ const {
     if((interaction.content).indexOf("維尼小熊")!=-1){
       interaction.delete();
     }
-    if(interaction.author.bot && interaction.content=="輸入一變數"){
+    if(interaction.author.bot && interaction.content=="分別輸入:店名/營業星期/營業時間/導航連結"){
       test = 1;
       testdata=[];
     }
